@@ -24,3 +24,4 @@ input[type=search]{width:100%;padding:12px;border:2px solid var(--pink);border-r
 #toast{position:fixed;left:50%;bottom:84px;transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 16px;border-radius:20px;z-index:10;opacity:0;pointer-events:none;transition:opacity .2s;max-width:90%}#toast.on{opacity:1}
 .readable{user-select:text;-webkit-user-select:text}:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+#who{color:#fff;text-decoration:none;background:#ffffff22;border-radius:16px;padding:6px 10px;font-size:.85rem;max-width:36vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
